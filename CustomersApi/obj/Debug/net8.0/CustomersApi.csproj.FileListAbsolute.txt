@@ -30,3 +30,4 @@ C:\Users\nicol\source\repos\CustomersApi\CustomersApi\obj\Debug\net8.0\refint\Cu
 C:\Users\nicol\source\repos\CustomersApi\CustomersApi\obj\Debug\net8.0\CustomersApi.pdb
 C:\Users\nicol\source\repos\CustomersApi\CustomersApi\obj\Debug\net8.0\CustomersApi.genruntimeconfig.cache
 C:\Users\nicol\source\repos\CustomersApi\CustomersApi\obj\Debug\net8.0\ref\CustomersApi.dll
+C:\Users\nicol\source\repos\CustomersApi\CustomersApi\obj\Debug\net8.0\CustomersApi.sourcelink.json

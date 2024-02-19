@@ -2,16 +2,18 @@
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Agregar servicios.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+// Más info. sobre Swagger/OpenAPI en https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+// Especificar que todas las urls serán LowerCase.
+builder.Services.AddRouting(routing => routing.LowercaseUrls = true);
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configurar los pipelines de solicitudes HTTP.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
